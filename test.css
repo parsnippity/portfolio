@@ -1,29 +1,92 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(191, 228, 242);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
+    color: #376070;
 }
 
 #nav {
     background-color: white;
-    color: darkblue;
+    color: #376070;
     text-align: center;
     padding: 5px;
     position: sticky;
 }
 
 .navClicks {
-    color: darkblue;
-    border-right: 2px solid darkblue;
+    color: #376070;
+    border-right: 2px solid #376070;
     padding-right: 5px;
     text-decoration: none;
 }
 
-#rightNav {
-    border-right: 0px solid darkblue;
+#homeClick {
+    background-color: rgb(191, 228, 242);
+}
+
+#resumeClick {
+    border-right: 0px solid #376070;
     padding-right: 0px;
 }
 
 #name {
     margin-top: 0px;
+}
+
+.fade-in-text {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
