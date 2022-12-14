@@ -11,22 +11,38 @@ body {
     text-align: center;
     padding: 5px;
     position: sticky;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #376070;
 }
 
 .navClicks {
-    color: #376070;
     border-right: 2px solid #376070;
     padding-right: 5px;
+    padding-left: 5px;
     text-decoration: none;
+    border-left: 2px solid #376070;
+    border-top: 2px solid #376070;
 }
 
 #homeClick {
-    background-color: rgb(191, 228, 242);
+    background-color: #bfe4f2;
+    border-bottom: 2px solid #bfe4f2;
+}
+
+#contactClick {
+    background-color: #a7c8d4;border-bottom: 2px solid #376070;
+}
+
+#skillsClick {
+    background-color: #8fabb5;border-bottom: 2px solid #376070;
+}
+
+#worksClick {
+    background-color: #778e97;border-bottom: 2px solid #376070;
 }
 
 #resumeClick {
-    border-right: 0px solid #376070;
-    padding-right: 0px;
+    background-color: #607279;border-bottom: 2px solid #376070;
 }
 
 #name {
