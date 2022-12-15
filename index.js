@@ -1,6 +1,7 @@
-let bits = [{main: "home", click: "homeClick", color:"#bfe4f2", textColor: "#386373"}, {main: "contact", click: "contactClick", color: "#a7c8d4", textColor: "#294954"}, {main: "skills", click: "skillsClick", color: "#8fabb5", textColor: "#1A2E36"}, {main: "works", click: "worksClick", color: "#778e97", textColor: "#6FC2E3"}, {main: "resume", click: "resumeClick", color: "#607279", textColor: "#60A8C4"}];
+let bits = [{main: "home", click: "homeClick", color:"#bfe4f2", textColor: "#f1dff8"}, {main: "works", click: "worksClick", color: "#c7e7f4", textColor: "#eed7f7"}, {main: "skills", click: "skillsClick", color: "#cfebf5", textColor: "#ebcff5"}, {main: "resume", click: "resumeClick", color: "#d7eef7", textColor: "#e7c7f4"}, {main: "contact", click: "contactClick", color: "#dff1f8", textColor: "#e4bff2"}];
 let shown = bits[0];
 let current = bits[0];
+//B7E1F0
 
 function show(hi){
     for(let item of bits){

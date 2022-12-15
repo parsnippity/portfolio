@@ -2,26 +2,26 @@ body {
     background-color: rgb(191, 228, 242);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
-    color: #376070;
+    color: #284854;
 }
 
 #nav {
     background-color: white;
-    color: #376070;
+    color: #284854;
     text-align: center;
     padding: 5px;
     position: sticky;
     padding-bottom: 0px;
-    border-bottom: 2px solid #376070;
+    border-bottom: 2px solid #284854;
 }
 
 .navClicks {
-    border-right: 2px solid #376070;
+    border-right: 2px solid #284854;
     padding-right: 5px;
     padding-left: 5px;
     text-decoration: none;
-    border-left: 2px solid #376070;
-    border-top: 2px solid #376070;
+    border-left: 2px solid #284854;
+    border-top: 2px solid #284854;
 }
 
 #homeClick {
@@ -29,24 +29,29 @@ body {
     border-bottom: 2px solid #bfe4f2;
 }
 
-#contactClick {
-    background-color: #a7c8d4;border-bottom: 2px solid #376070;
+#worksClick {
+    background-color: #c7e7f4;
+    border-bottom: 2px solid #284854;
 }
 
 #skillsClick {
-    background-color: #8fabb5;border-bottom: 2px solid #376070;
-}
-
-#worksClick {
-    background-color: #778e97;border-bottom: 2px solid #376070;
+    background-color: #cfebf5;
+    border-bottom: 2px solid #284854;
 }
 
 #resumeClick {
-    background-color: #607279;border-bottom: 2px solid #376070;
+    background-color: #d7eef7;
+    border-bottom: 2px solid #284854;
+}
+
+#contactClick {
+    background-color: #dff1f8;
+    border-bottom: 2px solid #284854;
 }
 
 #name {
     margin-top: 0px;
+    font-family: url(./Lobster/Lobster-Regular.ttf);
 }
 
 .fade-in-text {
