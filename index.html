@@ -16,30 +16,50 @@
 <body>
     <div id="nav">
         <h1 id="name">Brianne Siemsen</h1>
-        <a class="navClicks" id="homeClick" onclick="show(`home`)">HOME</a>
-        <a class="navClicks" id="worksClick" onclick="show(`works`)">PRIOR WORKS</a>
-        <a class="navClicks" id="resumeClick" onclick="show(`resumeSkills`)">RESUME & SKILLS</a>
-        <a class="navClicks" id="contactClick" onclick="show(`contact`)">CONTACT ME</a>
+        <div id="lilNav">
+            <a class="navClicks" id="homeClick" onclick="show(`home`)">HOME</a>
+            <a class="navClicks" id="worksClick" onclick="show(`works`)">PRIOR WORKS</a>
+            <a class="navClicks" id="resumeClick" onclick="show(`resumeSkills`)">RESUME & SKILLS</a>
+            <a class="navClicks" id="contactClick" onclick="show(`contact`)">CONTACT ME</a>
+        </div>
     </div>
     <div id="home" class="fade-in-text">
         <h1>Welcome to my Portfolio!</h1>
         <h3>Featured Works:</h3>
     </div>
     <div id="works" hidden>
-        <a href="https://parsnippity.github.io/breadsticksrecipe/">
+        <div>
+        <a href="https://parsnippity.github.io/breadsticksrecipe/" target="_blank">
             <img src="./easycheesy.PNG">
         </a>
         <p>Breadsticks Recipe</p>
-        <a href="https://parsnippity.github.io/Brees-Pizza/"><img src="./breespizza.PNG"></a>
+        <p>(date)</p>
+        <p>This was one of my earliest projects. Using only HTML it isn't very pretty, but it gets the job done of communicating a recipe for breadsticks.</p>
+        </div>
+        <div>
+        <a href="https://parsnippity.github.io/Brees-Pizza/" target="_blank"><img src="./breespizza.PNG"></a>
         <p>Bree's Pizza</p>
-        <a href="https://parsnippity.github.io/picturegridproject/"><img src="./picturegrid.PNG"></a>
+        <p>(date)</p>
+        <p>This was another early projects, through which I demonstrated my mastery of input tags. I enjoyed challenging myself by figuring out how to automatically select certain items.</p>
+        </div>
+        <div>
+        <a href="https://parsnippity.github.io/picturegridproject/" target="_blank"><img src="./picturegrid.PNG"></a>
         <p>Picture Grid Project</p>
-        <a href="https://parsnippity.github.io/breesbeads/"><img src="./breesbeads.PNG"></a>
+        <p>(date)</p>
+        <p>This project was completed to practice grid layouts and media queries, using both to recreate the layout of a provided image.</p>
+        </div>
+        <div>
+        <a href="https://parsnippity.github.io/breesbeads/" target="_blank"><img src="./breesbeads.PNG"></a>
         <p>Bree's Beads</p>
-        <a href="https://parsnippity.github.io/TicTacToe/"><img src="./tictactoe.png"></a>
+        </div>
+        <div>
+        <a href="https://parsnippity.github.io/TicTacToe/" target="_blank"><img src="./tictactoe.png"></a>
         <p>Tic Tac Toe</p>
-        <a href="https://parsnippity.github.io/calculator/"><img src="./calculator.PNG"></a>
+        </div>
+        <div>
+        <a href="https://parsnippity.github.io/calculator/" target="_blank"><img src="./calculator.PNG"></a>
         <p>Calculator</p>
+        </div>
     </div>
     <div id="resumeSkills" hidden>
         <div id="resume">
@@ -60,6 +80,7 @@
             <p>Member since 2022, E-Business submission for Regional Conference in progress</p>
         </div>
         <div id="skills">
+            <h2>Skills</h2>
             <ul>
                 <li>Able to implement the steps in the System Development Life Cycle (e.g. planning, analysis, design, developments,
                 testing, implementation, maintenance)</li>

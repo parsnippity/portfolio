@@ -1,8 +1,14 @@
 body {
-    background-color: rgb(191, 228, 242);
+    background-color: #bfe4f2;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
     color: black;
+}
+
+#works {
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #resumeSkills {
@@ -25,9 +31,16 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
 }
 
-#works > a > img {
-    max-width: 400px;
-    max-height: 400px;
+#works {
+    margin: 15px;
+}
+
+#works > div {
+    max-width: 30%;
+}
+
+#works img {
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -140,5 +153,17 @@ h4 {
 
     100% {
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #lilNav {
+        display: flex;
+    }
+    #works > div {
+        max-width: 45%;
+    }
+    #homeClick, #resumeClick, #worksClick, #contactClick {
+        background-color: #bfe4f2;
     }
 }
