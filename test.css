@@ -2,7 +2,7 @@ body {
     background-color: #bfe4f2;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
-    color: black;
+    color: #284854;
 }
 
 #works {
@@ -16,7 +16,7 @@ body {
 }
 
 #resume, #skills {
-    margin: 5px;
+    padding: 5px;
 }
 
 #resume {
@@ -25,6 +25,7 @@ body {
 
 a {
     font-size: 1.25em;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -37,6 +38,27 @@ h1, h2, h3, h4, h5 {
 
 #works > div {
     max-width: 30%;
+    border: 2px solid #284854;
+    margin-bottom: 10px;
+}
+
+#works > div > p, #works > div > a > h3, #works > div > h4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#works > div > a > h3 {
+    color: #284854;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#works > div > a {
+    font-size: 1.17em;
+}
+
+#works > div > p {
+    margin-top: 5px;
 }
 
 #works img {
@@ -51,7 +73,7 @@ h4 {
 
 #nav {
     background-color: white;
-    color: black;
+    color: #284854;
     text-align: left;
     padding: 5px;
     position: sticky;
@@ -72,7 +94,6 @@ h4 {
     border-right: 2px solid #284854;
     padding-right: 5px;
     padding-left: 5px;
-    text-decoration: none;
     border-left: 2px solid #284854;
     border-top: 2px solid #284854;
 }
@@ -168,9 +189,12 @@ h4 {
 @media only screen and (max-width: 550px) {
     #lilNav {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #works > div {
         max-width: 45%;
+        min-width: 150px;
     }
     #homeClick, #resumeClick, #worksClick, #contactClick {
         background-color: #bfe4f2;
@@ -180,5 +204,7 @@ h4 {
 	}
 	#nav {
 		padding: 0px;
+        border-bottom: 0px;
+        text-align: center;
 	}
 }
