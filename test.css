@@ -121,6 +121,7 @@ h4 {
 #name {
     margin-top: 0px;
     margin-bottom: 10px;
+    max-width: 100%;
 }
 
 @font-face {
@@ -191,13 +192,20 @@ h4 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+        background-color: #284854;
+    }
+    #nav {
+        background-color: #bfe4f2;
     }
     #works > div {
         max-width: 45%;
         min-width: 150px;
     }
     #homeClick, #resumeClick, #worksClick, #contactClick {
-        background-color: #bfe4f2;
+        background-color: #284854;
+        color: #bfe4f2;
+        border: 0px;
     }
 	#name {
 		padding: 5px;
@@ -207,4 +215,11 @@ h4 {
         border-bottom: 0px;
         text-align: center;
 	}
+    #resumeSkills {
+        grid-template-columns: 1fr;
+    }
+    #resume {
+        border-right: 0px;
+        border-bottom: 2px solid #284854;
+    }
 }
