@@ -47,6 +47,17 @@ h1, h2, h3, h4, h5 {
     padding-right: 5px;
 }
 
+#contact {
+	text-align: left;
+	font-size: 1.25em;
+	margin: 10px;
+}
+
+#contact a {
+	font-size: 1em;
+	color: #284854;
+}
+
 #works > div > a > h3 {
     color: #284854;
     margin-top: 10px;
@@ -82,12 +93,47 @@ h4 {
 }
 
 #me {
-	max-width: 30%;
+	max-height: 300px;
+	max-width: 100%;
+	display: inline;
+	margin: 20px;
+}
+
+#homeRight {
+	display: inline;
+	align-self: center;
+}
+
+#contact > img {
+	max-height: 1.25em;
+	display: inline;
+	vertical-align: middle;
+}
+
+#contact > p {
 	display: inline;
 }
 
-#welcome {
+#name, #logo {
 	display: inline;
+}
+
+#logo {
+	margin-bottom: 10px;
+}
+
+#welcome {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 4em;
+}
+
+#homeTop {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	
 }
 
 .navClicks {
@@ -122,6 +168,7 @@ h4 {
     margin-top: 0px;
     margin-bottom: 10px;
     max-width: 100%;
+	vertical-align: top;
 }
 
 @font-face {

@@ -23,6 +23,11 @@ function show(hi){
     } else {
         document.getElementById("works").style.display = "none"
     }
+    if(current.main == "home"){
+        document.getElementById("homeTop").style.display = "flex"
+    } else {
+        document.getElementById("homeTop").style.display = "none"
+    }
     document.getElementById(shown.main).removeAttribute("class");
     if(window.matchMedia("(max-width: 550px)").matches == false) {
         if (hi != shown.main) document.getElementById(shown.click).style.borderBottom = `2px solid #376070`;

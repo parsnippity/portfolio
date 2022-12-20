@@ -10,12 +10,14 @@
     <meta property="og:image" content="https://d32qe1r3a676y7.cloudfront.net/eyJidWNrZXQiOiJibG9nLWVjb3RyZWUiLCJrZXkiOiAiYmxvZy8wMDAxLzAxL2FkNDZkYmI0NDdjZDBlOWE2YWVlY2Q2NGNjMmJkMzMyYjBjYmNiNzkuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6IDkwMCwiaGVpZ2h0IjowLCJmaXQiOiJjb3ZlciJ9fX0=">
     <meta property="og:description" content="Empty page with all the meta tags complete">
     <meta property="og:title" content="Brianne Siemsen's Portfolio">
-    <link rel="icon" href="images/myfavicon.png" type="image/x-icon">
+    <link rel="icon" href="./favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./test.css">
 </head>
 <body>
     <div id="nav">
+		<img src="./favicon.png" id="logo">
         <h1 id="name">Brianne Siemsen</h1>
+		<br>
         <div id="lilNav">
             <a class="navClicks" id="homeClick" onclick="show(`home`)">HOME</a>
             <a class="navClicks" id="worksClick" onclick="show(`works`)">PRIOR WORKS</a>
@@ -24,10 +26,13 @@
         </div>
     </div>
     <div id="home" class="fade-in-text">
+	<div id="homeTop">
 		<img src="./me2.png" id="me">
-        <h1 id="welcome">Welcome to my Portfolio!</h1>
-		<p>I am a current coding student with plans to pursue a career as a full-stack software developer.</p>
-        <h3>Current Project:</h3>
+		<div id="homeRight">
+			<h1 id="welcome">Welcome to my Portfolio!</h1>
+			<p>I am a current coding student with plans to pursue a career as a full-stack software developer.</p>
+		</div>
+		</div>
     </div>
     <div id="works" hidden>
         <div>
@@ -101,10 +106,27 @@
         </div>
     </div>
     <div id="contact" hidden>
-        <p>4810 W Paradise Ln, Glendale, AZ 85306 C: 602.607.2953 | E: briannesiemsen@gmail.com</p>\
+		<img src="./person.png">
+		<p>Brianne Siemsen</p>
+		<br>
+		<img src="./email.png">
+		<p>fake@gmail.com</p>
+		<br>
+		<img src="./phone.png">
+		<p>1234567890</p>
+		<br>
+		<img src="./location.png">
+		<p>6789 W House Dr</p>
+		<br>
+		<img src="./github-mark/github-mark.png">
+		<a href="https://github.com/parsnippity" id="myGithub" target="_blank">Parsnippity</a>
+		<br>
+		<br>
         <p><a
-            href="https://www.freepik.com/free-vector/social-media-logos-icons-set_11387944.htm#query=contact%20icon&position=3&from_view=keyword">Image
+            href="https://www.freepik.com/free-vector/social-media-logos-icons-set_11387944.htm#query=contact%20icon&position=3&from_view=keyword">Images
             by myriammira</a> on Freepik</p>
+		<br>
+		<p>Email, Phone, and Address are fake</p>
     </div>
     <script src="./index.js"></script>
 </body>
